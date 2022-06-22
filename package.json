@@ -1,0 +1,27 @@
+{
+  "name": "@mio-core/miosecurity",
+  "version": "0.0.0",
+  "description": "Security utilities for mio microservice architecture ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citkane/mioSecurity.git"
+  },
+  "author": "Michael Jonker",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/citkane/mioSecurity/issues"
+  },
+  "homepage": "https://github.com/citkane/mioSecurity#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "checksum": "^1.0.0",
+    "fs-extra": "^10.1.0",
+    "jose": "^4.8.1",
+    "node-rsa": "^1.1.1",
+    "uglify-es": "^3.3.9"
+  }
+}
